@@ -5,7 +5,7 @@ Custom lines that can be drawn from bar to bar for bar charts.
 `npm install --save chartjs-plugin-custom-lines`
 
 ### Usage
-Just import the plugin and add it to any chart that you want to be a waterfall chart like so:
+Just import the plugin and add it to any bar chart:
 
 `import customLinesPlugin from 'chartjs-plugin-custom-lines';`
 
