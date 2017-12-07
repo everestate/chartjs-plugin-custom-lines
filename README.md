@@ -85,21 +85,13 @@ Per Line options:
 
 `line.reverseGradient`: ([Boolean]) If true then reverses the direction of the gradient from down to up
 
-`line.from`: (Object)
-
 `line.from.stackIndex`: (Number) The dataset index to draw the line from
-  
-`line.from.points`: ([Object])
 
 `line.from.points.top`: (String) Specifies the top point to draw the line from.
 
 `line.from.points.bottom`: (String) Specifies the bottom point to draw the line from.
 
-`line.to`: (Object)
-
 `line.to.stackIndex`: (Number) The dataset index to draw the line to
-
-`line.to.points`: ([Object])
 
 `line.to.points.top`: (String) Specifies the top point to draw the line to.
 
