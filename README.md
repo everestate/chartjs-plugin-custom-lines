@@ -60,16 +60,24 @@ Per Line options:
 `reverseGradient`: ([Boolean]) If true then reverses the direction of the gradient from down to up
 
 `from`: (Object)
+
   `stackIndex`: (Number) The dataset index to draw the line from
+  
   `points`: ([Object])
-    `top`: (String) Specifies the top point to draw the line from, see [link].
-    `bottom`: (String) Specifies the bottom point to draw the line from, see [link].
+  
+    `top`: (String) Specifies the top point to draw the line from.
+    
+    `bottom`: (String) Specifies the bottom point to draw the line from.
 
 `to`: (Object)
+
   `stackIndex`: (Number) The dataset index to draw the line to
+  
   `points`: ([Object])
-    `top`: (String) Specifies the top point to draw the line to, see [link].
-    `bottom`: (String) Specifies the bottom point to draw the line to, see [link].
+  
+    `top`: (String) Specifies the top point to draw the line to.
+    
+    `bottom`: (String) Specifies the bottom point to draw the line to.
 
 By default this plugin draws from top right -> top left and bottom right -> bottom left.
 
