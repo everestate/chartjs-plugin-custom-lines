@@ -26,8 +26,11 @@ const waterFallPlugin = {
     // Can't override onComplete function because it gets overwridden if user using React
     setTimeout(() => {
       status[chart.id].readyToDrawCustomLines = true;
+      const options = chart.options.plugins.customLinesPlugin;
 
-      drawCustomLines(chart);
+      if (options.enabled) {
+        drawCustomLines(chart);
+      }
     }, chart.options.animation.duration);
   },
   afterDraw: (chart) => {
