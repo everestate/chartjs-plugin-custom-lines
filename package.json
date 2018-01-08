@@ -2,7 +2,7 @@
   "name": "chartjs-plugin-custom-lines",
   "homepage": "http://www.chartjs.org",
   "description": "Chart.js plugin for drawing custom lines from one bar to another",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "license": "MIT",
   "main": "lib/chartjs-plugin-custom-lines.js",
   "repository": {
