@@ -1,16 +1,12 @@
 import babel from 'rollup-plugin-babel';
 import eslint from 'rollup-plugin-eslint';
 import uglify from 'rollup-plugin-uglify';
-import merge from 'lodash.merge';
+import merge from 'lodash/merge';
 
 const common = {
   input: 'src/index.js',
   name: 'chartjsPluginCustomLines',
   sourcemap: true,
-  external: ['lodash.merge'],
-  globals: {
-    'lodash.merge': '_.merge',
-  },
 };
 
 const babelOptions = {
