@@ -2,7 +2,7 @@
   "name": "chartjs-plugin-custom-lines",
   "homepage": "http://www.chartjs.org",
   "description": "Chart.js plugin for drawing custom lines from one bar to another",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "license": "MIT",
   "main": "lib/chartjs-plugin-custom-lines.js",
   "repository": {
@@ -40,9 +40,7 @@
     "rollup-plugin-uglify": "^2.0.1"
   },
   "peerDependencies": {
-    "chart.js": ">= 2.0.0 < 3"
-  },
-  "dependencies": {
-    "lodash.merge": "^4.6.0"
+    "chart.js": ">= 2.0.0 < 3",
+    "lodash": "^4.16.4"
   }
 }
